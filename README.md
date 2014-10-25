@@ -1,3 +1,3 @@
 My personal page.
 
-Live at nyeinchankyaw.me
+Live at http://www.nyeinchankyaw.me
