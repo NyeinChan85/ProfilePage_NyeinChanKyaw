@@ -1,0 +1,144 @@
+body {
+	font-family: 'Open Sans',sans-serif,Helvetica, Arial;
+    
+	
+	background: #AA9;
+}
+.navContainer ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #a44;
+}
+.logo img {
+	border-radius: 50%;
+	margin-left: 50px;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif,Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-shadow: 2px 5px #000;
+}
+h4 {
+
+	text-shadow: 1px 1px #F35;
+	
+}
+header {
+	text-align: left;
+	
+}
+
+.navContainer {
+	width:100%;
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+.navBar {
+	width:105%;
+	background:#333;
+	margin: 0 auto;
+}
+
+.logo {
+	color: #F35;
+	float: left;
+	display: block;
+	padding: 20px 10px;
+	font-weight: 600;
+	
+	width: 100%;
+}
+
+.navContainer {
+	overflow:hidden;
+}
+.navMenu {
+	float: left;
+	color: #f35;;
+}
+
+.navMenu li {
+	float: left;
+}
+
+.navMenu li a {
+	display: block;
+	padding: 20px 10px;
+	color: #f98;
+	text-shadow: 2px 2px #000;
+}
+
+.navicon{
+	display: none;
+}
+section {
+	margin-left: 50px;
+
+	margin-right: 50px;
+}
+
+.copyright {
+
+	width:100%;
+	background:#333;
+
+    padding:20px 30px;
+	color: #a44;
+	margin: 0 auto;
+	text-align: center;
+}
+@-ms-viewport {  width:device-width;}
+@viewport { width:device-width;}
+
+@media screen and (max-width:767px) {
+		
+    .navicon {
+    	display: block;
+    	float: right;
+    	color: #FFF;
+    	padding:20px 30px;
+    	cursor: pointer;
+    }
+
+    .navMenu {
+    	float:left;
+    	width:100%;
+    	height: 0;
+        height:0;
+    	overflow:hidden;
+
+    }
+    .mobile {
+    	height: auto;
+
+    }
+    
+    
+    .navMenu li {
+    	width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
