@@ -86,7 +86,7 @@ section {
 	width:100%;
 	background:#333;
 
-    padding:20px 30px;
+        padding:20px 30px;
 	color: #a44;
 	margin: 0 auto;
 	text-align: center;
@@ -121,7 +121,12 @@ section {
     .navMenu li {
     	width: 100%;
     }
-}
+    .copyright {
+
+
+	text-align: left;
+    }
+
 
 
 
