@@ -1,3 +1,3 @@
-My personal page.
+My profile page.
 
 Live at www.channyc.dev
