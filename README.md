@@ -1,3 +1,3 @@
-My profile page.
+My porfolio page.
 
 Live at www.channyc.dev
