@@ -7,128 +7,75 @@
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
   <style>
     /* Add custom CSS styles here */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-    }
 
-    /* Navigation */
-    .header {
-      background-color: #333;
-      color: #fff;
+    /* ... Your existing styles ... */
+
+    /* Stylish Menu */
+    .menu-container {
       text-align: center;
     }
 
-    .header ul {
+    .menu {
       list-style-type: none;
-      margin: 0;
       padding: 0;
+      margin: 0;
+      display: inline-block;
     }
 
-    .header li {
+    .menu li {
       display: inline;
       margin-right: 20px;
+      position: relative;
     }
 
-    .header a {
+    .menu li a {
       text-decoration: none;
-      color: #fff;
+      color: #333;
       font-weight: bold;
       font-size: 18px;
-    }
-
-    /* Banner */
-    .banner {
-      text-align: center;
-      background-color: #555;
-      color: #fff;
-      padding: 40px 0;
-    }
-
-    .banner h1 {
-      font-size: 36px;
-    }
-
-    /* Bio */
-    .bio {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 10px 20px;
       border-radius: 5px;
-      text-align: left;
+      transition: background-color 0.3s, color 0.3s;
     }
 
-    .photo {
-      float: left;
-      margin-right: 20px;
-    }
-
-    .photo img {
-      max-width: 100%;
-      border-radius: 5px;
-    }
-
-    .quote {
-      font-style: italic;
-      color: #777;
-    }
-
-    /* Footer */
-    footer {
+    .menu li a:hover {
       background-color: #333;
       color: #fff;
-      text-align: center;
-      padding: 10px 0;
+    }
+
+    .menu li a::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #333;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      transition: transform 0.3s ease-out;
+    }
+
+    .menu li a:hover::before {
+      transform: scaleX(1);
+      transform-origin: bottom left;
     }
   </style>
 </head>
 <body>
   <!-- Navigation -->
   <nav class="header">
-    <ul>
-      <li><a href="#aboutme">ABOUT ME</a></li>
-      <li><a href="#whatido">WHAT I DO</a></li>
-      <li><a href="#background">MY EDUCATIONAL BACKGROUND</a></li>
-      <li><a href="#contactme">CONTACT ME</a></li>
-    </ul>
+    <div class="menu-container">
+      <ul class="menu">
+        <li><a href="#aboutme">ABOUT ME</a></li>
+        <li><a href="#whatido">WHAT I DO</a></li>
+        <li><a href="#background">MY EDUCATIONAL BACKGROUND</a></li>
+        <li><a href="#contactme">CONTACT ME</a></li>
+      </ul>
+    </div>
   </nav>
  
-  <!-- Banner -->
-  <div class="banner">
-    <h2>2022</h2>
-    <h1>Nyein Chan Kyaw</h1>
-  </div>
-
-  <!-- Bio -->
-  <div class="bio">
-    <div class="first photo">
-      <div class="image-container">
-        <img src="assets/images/work.jpg" alt="Nyein Chan Kyaw">
-      </div>
-    </div>
-    <div id="aboutme">
-      <p>
-        My name is Nyein Chan Kyaw. I am a fullstack engineer/IT manager/Business Analyst from New York City. I love working with computers, networking, coding, and playing guitars!!!
-      </p>
-      <span class="quote">“Waste no more time arguing what a good man should be. Be One.” – Marcus Aurelius</span>
-    </div>
-    
-    <div id="whatido">
-      <p>
-        I am currently in charge of IT operations in EAPD (Economic Analysis & Policy Division) at United Nations Headquarters. I enjoy learning all about networking, cybersecurity, data science, and software engineering. Plus, in my spare time, I work on my projects and beautiful websites. I have extensive knowledge, education, and experience in the field of Software development, Web development, and Database development & consulting. :)
-        Feel free to contact me and also check out my GitHub account for my recent work. Thank you!!
-      </p>
-      <span class="quote">“Don’t seek for everything to happen as you wish it would, but rather wish that everything happens as it actually will—then your life will flow well.” – Epictetus</span>
-    </div>
-    
-    <div id="background">
-      <h2>My Educational Background</h2>
-      <ul>
-        <li>Bachelor of Computer Science and Computer Information System (minor) from Queens College</li>
-        <li>Professional Data Science Certificate from Harvard (in progress)</li>
-        <li>CompTIA A+ Certification</li> 
-        <li>Google IT Support Professional Certificate</li> 
+  <!-- Rest of your content -->
+  
+</body>
+</html>
