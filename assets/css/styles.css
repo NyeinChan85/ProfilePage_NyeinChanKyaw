@@ -41,6 +41,13 @@ body {
   position: fixed;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Adjust the height as needed */
+}
+
 /* Banner */
 .banner {
   text-align: center;
